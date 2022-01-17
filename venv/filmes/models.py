@@ -1,10 +1,6 @@
 from django.db import models
-
-# Create your models here.
-
 from uuid import uuid4
 
-# Create your models here.
 
 class Filmes(models.Model):
     id_filme = models.UUIDField(primary_key=True, default=uuid4, editable=False)
